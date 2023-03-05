@@ -1,0 +1,904 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+
+.text-right{
+    text-align: right!important;
+}
+
+/* NAV HEADER */
+
+.nav-header{
+  background-color: #209D5C;
+  padding: 0.1rem 1rem;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
+}
+
+.navbar-brand{
+  padding: 0;
+}
+
+.ml-auto{
+  margin-left: auto!important;
+}
+
+.navbar-nav .dropdown-menu-right{
+  right: 0;
+  left: auto;
+}
+
+p.text-banner-home-service{
+    font-size: 0.8rem;
+}
+
+.link-banner-home{
+    color: #FFDE59;
+    text-decoration: none;
+}
+
+.height-100{
+  height: 100%;
+}
+
+.bg-banner-1{
+  background-image: url('https://escuelafarmaceutica.com/media/wp-content/uploads/2023/02/bg-farmacia.png'); 
+  background-position: center left; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 55vh;
+}
+
+.bg2-banner-1{
+  height: 55hv;
+}
+
+
+.gradient-custom-1{
+  background: rgba(0,0,0,0.6);
+}
+
+.img-banner-1{
+  height: 55vh;
+}
+
+.title-1{
+  font-family: Bebas Neue,sans-serif;
+  font-size: 4rem;
+  line-height: 3.6rem;
+}
+
+
+.banner-1-content{
+    padding-left: 40rem;
+}
+
+
+/* Banner 2 Home */
+
+#banner-2-home{
+    background: #000 !important;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+#banner-2-home .row>*{
+    padding-right: 0;
+}
+
+
+i.icon-banner2{
+    color: #000;
+    font-size: 1.5rem;
+    background-color: #fff;
+    padding: 0.5rem 0.7rem;
+    border-radius: 50%;
+}
+
+
+div.banner-2-content h5{
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+}
+
+div.banner-2-content p{
+    margin-bottom: 0;
+    font-size: 0.8rem;
+}
+
+/* SECCIÓN POR QUE CAPACITARTE CON ELAF */
+
+.information-1{
+    padding: 5rem 1rem;
+}
+
+.title-color{
+    color: #209D5C;
+    font-weight: 900;
+}
+
+.information-1-text{
+    color: #666;
+    font-weight: 400;
+}
+
+.information-1-text i{
+    font-size: 1.5em;
+    margin-right: 0.3em;
+}
+
+.btn-second{
+    background-color: #F48000;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+}
+
+.btn-second:hover{
+  background-color: #ff9b30;
+  color: #fff;
+}
+
+/* BANNER 3 PROGRAMAS DE CAPACITACION EMPRESARIAL */
+
+.bg-banner-3{
+    background-image: url('https://escuelafarmaceutica.com/media/wp-content/uploads/2023/02/farmacia2-scaled.jpg'); 
+    background-attachment: fixed; 
+    background-position: center left; 
+    background-size: 150%; 
+}
+
+
+.banner-3-content{
+    padding-right: 40rem;
+    color: #fff;
+}
+
+.banner-3-content p{
+    font-size: 1.2rem;
+}
+
+.gradient-custom{
+    background-image: linear-gradient(90deg, rgba(0,194,203,0.9) 20%, rgba(82,113,255,0.8) 70%);
+}
+
+.padding-jumbotron{
+  padding: 3rem 0;
+}
+
+/* SECCIÓN PLANES */
+
+.card-group-planes{
+    padding: 5rem 1rem;
+}
+
+.card-planes{
+    border: 0;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.4);
+}
+
+.card-header-planes{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.card-body{
+    color: #666;
+    padding: 2rem;
+    background-color: #f7f7f7;
+}
+
+.card-text-planes{
+    font-size: 0.9rem;
+    border-bottom: 1px solid #ccc;
+    padding: 0.8rem 0;
+    line-height: 1.1rem;
+}
+
+.card-text-planes i{
+    margin-right: 1rem;
+}
+
+.card-text-planes-end{
+    border-bottom: 0!important;
+}
+
+.card-btn-planes{
+    padding: 0.8rem 2rem;
+    margin-bottom: 1rem;
+}
+
+.card-planes-promo{
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.bg-empresarial{
+    background-color: #F48000;
+}
+
+.card-header-planes-text{
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.card-text-planes-terminos{
+    font-size: 0.5rem;
+}
+
+.card-dolar{
+  font-size: 1rem;
+  vertical-align: top;
+  line-height: 2rem;
+}
+
+/* RIBBON PLANES */
+
+.ribbon {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+  }
+  .ribbon::before,
+  .ribbon::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    border: 0 solid #ce6a00;
+  }
+  .ribbon span {
+    position: absolute;
+    display: block;
+    width: 200px;
+    padding: 10px 0;
+    background-color: #F48000;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    color: #fff;
+    font: 700 15px/1 'Lato', sans-serif;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  /* top left*/
+  .ribbon-top-left {
+    top: -10px;
+    left: -10px;
+  }
+  .ribbon-top-left::before,
+  .ribbon-top-left::after {
+    border-top-color: transparent;
+    border-left-color: transparent;
+  }
+  .ribbon-top-left::before {
+    top: 0;
+    right: 0;
+  }
+  .ribbon-top-left::after {
+    bottom: 0;
+    left: 0;
+  }
+  .ribbon-top-left span {
+    right: -25px;
+    top: 30px;
+    transform: rotate(-45deg);
+  }
+  
+  /* top right*/
+  .ribbon-top-right {
+    top: 0px;
+    right: -1px;
+  }
+  .ribbon-top-right::before,
+  .ribbon-top-right::after {
+    border-top-color: transparent;
+    border-right-color: transparent;
+  }
+  .ribbon-top-right::before {
+    top: 0;
+    left: 0;
+  }
+  .ribbon-top-right::after {
+    bottom: 0px;
+    right: 0px;
+  }
+  .ribbon-top-right span {
+    left: 15px;
+    top: 15px;
+    transform: rotate(45deg);
+  }
+  
+  /* bottom left*/
+  .ribbon-bottom-left {
+    bottom: -10px;
+    left: -10px;
+  }
+  .ribbon-bottom-left::before,
+  .ribbon-bottom-left::after {
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  .ribbon-bottom-left::before {
+    bottom: 0;
+    right: 0;
+  }
+  .ribbon-bottom-left::after {
+    top: 0;
+    left: 0;
+  }
+  .ribbon-bottom-left span {
+    right: -25px;
+    bottom: 30px;
+    transform: rotate(225deg);
+  }
+  
+  /* bottom right*/
+  .ribbon-bottom-right {
+    bottom: -10px;
+    right: -10px;
+  }
+  .ribbon-bottom-right::before,
+  .ribbon-bottom-right::after {
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+  }
+  .ribbon-bottom-right::before {
+    bottom: 0;
+    left: 0;
+  }
+  .ribbon-bottom-right::after {
+    top: 0;
+    right: 0;
+  }
+  .ribbon-bottom-right span {
+    left: -25px;
+    bottom: 30px;
+    transform: rotate(-225deg);
+  }
+
+  /* FOOTER */
+
+  .footer-1-logo{
+    width: 100%;
+  }
+  .footer-1{
+    background: #000;
+    padding: 2rem 5rem;
+    border-top: 0.5rem solid #209D5C;
+  }
+
+  .footer-1-nav a{
+    color: #fff;
+  }
+
+  .footer-1-nav a:hover{
+    color: #209D5C;
+  }
+
+  .footer-2{
+    background-color: #555;
+    padding: 0.5rem 5rem;
+    color: #fff;
+    font-size: 0.8rem;
+  }
+
+
+  /* Small devices (landscape phones, 576px and up) */
+
+  @media (max-width: 575.98px) { 
+
+    /* NAV TOGGLER */
+
+    .nav-header{
+      background-color: #209D5C;
+      padding: 0.1rem 0rem 0.1rem 0.5rem;
+      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
+    }
+
+    .navbar-toggler{
+      border: 0;
+    }
+    
+    .navbar-toggler-icon{
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    /* BANNER 1 */
+
+    .bg-banner-1, .bg2-banner-1{
+      height: auto;
+    }
+
+    .padding-sm{
+      padding: 3rem 1rem 0;
+    }
+
+    .img-banner-1{
+      width: 100%;
+      height: auto;
+    }
+
+    .text-banner-1{
+      text-align: center!important;
+    }
+
+    .title-1{
+      font-family: Bebas Neue,sans-serif;
+      font-size: 2.3rem;
+      line-height: 2.1rem;
+      margin-bottom: 2rem;
+    }
+
+    .title-2{
+      font-size: 0.9rem;
+      line-height: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    /* BANNER 2 */
+
+    .item-banner-2{
+      padding: 1rem 0;
+    }
+
+     #banner-2-home{
+      padding: 1rem 0;
+    }
+
+    #banner-2-home .row>*{
+      padding-right: 0;
+    }
+
+    .banner-2-content{
+      padding-right: 1.5rem!important;
+    }
+
+    /* SECCION "POR QUÉ CAPACITARSE" */
+
+    .text-information-1{
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+
+    .btn-second{
+      margin-top: 1rem
+    }
+
+    .information-1-text i{
+      display: block;
+      font-size: 3rem;
+      margin-right: 0;
+    }
+
+    /* BANNER 3 */
+
+    .bg-banner-3{
+      background-attachment: local; 
+    }
+
+    /* PLANES */
+    .card-group{
+      display: block;
+    }
+
+    .card-group-planes{
+      padding: 1rem 1rem;
+    }
+
+    .card-planes-promo{
+      transform: scale(1);
+      z-index: 1;
+    }
+
+    .card-planes{
+      box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.4);
+      border: 1px solid rgba(0,0,0,0.1);
+    }
+
+    /* FOOTER */
+
+    .links-footer{
+      display: none;
+    }
+
+    .footer-col{
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .footer-1{
+      padding: 1rem 1rem;
+    }
+
+  }
+  @media (min-width: 576px ) {
+
+    /* NAV TOGGLER */
+
+    .nav-header{
+      background-color: #209D5C;
+      padding: 0.1rem 0rem 0.1rem 0.5rem;
+      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
+    }
+
+    .navbar-toggler{
+      border: 0;
+    }
+    
+    .navbar-toggler-icon{
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    /* BANNER 1 */
+    .bg-banner-1, .bg2-banner-1{
+      height: auto;
+    }
+
+    .padding-sm{
+      padding: 3rem 1rem 0;
+    }
+
+    .img-banner-1{
+      width: 100%;
+      height: auto;
+    }
+
+    .text-banner-1{
+      text-align: center!important;
+    }
+
+    .title-1{
+      font-family: Bebas Neue,sans-serif;
+      font-size: 2.5rem;
+      line-height: 2.3rem;
+      padding-left: 0rem;
+    }
+
+    .title-2{
+      font-size: 0.9rem;
+      line-height: 1rem;
+    }
+
+    /* BANNER 2 */
+
+    .item-banner-2{
+      padding: 1rem 0;
+    }
+
+     #banner-2-home{
+      padding: 1rem 0;
+    }
+
+    #banner-2-home .row>*{
+      padding-right: 0;
+    }
+
+    .banner-2-content{
+      padding-right: 1.5rem!important;
+    }
+
+    /* SECCION "POR QUÉ CAPACITARSE" */
+
+    .text-information-1{
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+
+    .btn-second{
+      margin-top: 1rem
+    }
+
+    .information-1-text i{
+      display: block;
+      font-size: 3rem;
+      margin-right: 0;
+    }
+
+    /* BANNER 3 */
+
+    .bg-banner-3{
+      background-attachment: local; 
+    }
+
+    /* PLANES */
+    .card-group{
+      display: block;
+    }
+
+    .card-group-planes{
+      padding: 1rem 1rem;
+    }
+
+    .card-planes-promo{
+      transform: scale(1);
+      z-index: 1;
+    }
+
+    .card-planes{
+      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+      border: 0;
+    }
+
+    .card-group > .card{
+      margin-bottom: 1rem
+    }
+
+    /* FOOTER */
+
+    .links-footer{
+      display: none;
+    }
+
+    .footer-col{
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .footer-1{
+      padding: 2rem 1rem;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+
+    /* BANNER 1 */
+
+    .bg-banner-1, .bg2-banner-1{
+      height: auto;
+      
+    }
+
+    .padding-sm{
+      padding: 0;
+    }
+
+    .text-banner-1{
+      text-align: right!important;
+    }
+
+    .title-1{
+      font-family: Bebas Neue,sans-serif;
+      font-size: 2rem;
+      line-height: 2rem;
+      padding-left: 0rem;
+    }
+
+    .title-2{
+      font-size: 0.8rem;
+      line-height: 1rem;
+    }
+
+    
+    .bg-banner-3{
+      background-image: url('https://escuelafarmaceutica.com/media/wp-content/uploads/2023/02/farmacia2-scaled.jpg'); 
+      background-attachment: fixed; 
+      background-position: center left; 
+      background-size: 150%; 
+    }
+
+    /* FOOTER */
+
+    .links-footer{
+      display: none;
+    }
+
+    .footer-col{
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .footer-1{
+      padding: 1rem 5rem;
+    }
+
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+
+    /* NAV TOGGLER */
+
+    .nav-header{
+      background-color: #209D5C;
+      padding: 0.1rem 1rem;
+      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
+    }
+
+    /* BANNER 1 */
+
+    .bg-banner-1, .bg2-banner-1{
+      height: 55hv;
+    }
+
+    .padding-sm{
+      padding: 0;
+    }
+
+    .img-banner-1{
+      height: 55hv;
+      display: block;
+    }
+
+    .title-1{
+      font-family: Bebas Neue,sans-serif;
+      font-size: 2.5rem;
+      line-height: 2.3rem;
+      padding-left: 5rem;
+    }
+
+    .title-2{
+      font-size: 0.9rem;
+      line-height: 1rem;
+    }
+
+    .text-banner-1{
+      text-align: right!important;
+      padding-left: 5rem;
+    }
+
+    /* BANNER 2 */
+
+    .item-banner-2{
+      padding: 1rem 0;
+    }
+
+     #banner-2-home{
+      padding: 1rem 0;
+    }
+
+    #banner-2-home .row>*{
+      padding: 0 0.5rem;
+    }
+
+    .banner-2-content{
+      padding-right: 0!important;
+    }
+
+    div.banner-2-content h5{
+      margin-bottom: 0.3rem;
+      font-size: 0.8rem;
+    }
+    
+    div.banner-2-content p{
+        margin-bottom: 0;
+        font-size: 0.6rem;
+    }
+
+    /* SECCION "POR QUÉ CAPACITARSE" */
+
+    .text-information-1{
+      text-align: left;
+      padding-bottom: 0rem;
+      padding: 0;
+    }
+
+    .btn-second{
+      margin-top: 1rem
+    }
+
+    .information-1-text i{
+      display: inline;
+      font-size: 1.5rem;
+      margin-right: 0.5rem;
+    }
+
+    /* PLANES */
+    .card-group{
+      display: flex;
+    }
+
+    .card-group-planes{
+      padding: 5rem 1rem;
+    }
+
+    .card-planes-promo{
+      transform: scale(1.1);
+      z-index: 1;
+    }
+
+    .card-planes{
+      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+      border: 0;
+    }
+
+    .card-group > .card{
+      margin-bottom: 1rem
+    }
+
+    .links-footer{
+      display: block;
+    }
+
+    .footer-col{
+      padding: 1rem;
+    }
+
+    .footer-1{
+      padding: 2rem 5rem 0;
+    }
+
+  }
+  
+  /* X-Large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+
+    .title-1{
+      font-family: Bebas Neue,sans-serif;
+      font-size: 3rem;
+      line-height: 2.8rem;
+      padding-left: 9rem;
+    }
+
+    .title-2{
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+
+    /* BANNER 2 */
+
+    .item-banner-2{
+      padding: 1rem 0;
+    }
+
+     #banner-2-home{
+      padding: 1rem 0;
+    }
+
+    #banner-2-home .row>*{
+      padding: 0 0.5rem;
+    }
+
+    .banner-2-content{
+      padding-right: 0!important;
+    }
+
+    div.banner-2-content h5{
+      margin-bottom: 0.3rem;
+      font-size: 1rem;
+    }
+    
+    div.banner-2-content p{
+        margin-bottom: 0;
+        font-size: 0.7rem;
+    }
+
+     /* SECCION "POR QUÉ CAPACITARSE" */
+
+     .text-information-1{
+      padding-bottom: 1rem;
+    }
+
+  }
+  
+  /* XX-Large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+
+    /* BANNER 1 */
+
+    .title-1{
+      font-family: Bebas Neue,sans-serif;
+      font-size: 4rem;
+      line-height: 3.6rem;
+      padding-left: 9rem;
+    }
+
+    .title-2{
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+
+
+  }  
+
+
+.title-servicio{
+  margin-top: 3rem;
+}

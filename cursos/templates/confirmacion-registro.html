@@ -1,0 +1,27 @@
+{% extends 'base/base.html' %}
+
+{% load static %}
+
+{% block styles %}
+    <link href="{% static 'css/registro.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+
+<div id="registro-container" class="container-fluid registro-container">
+    <div class="row align-items-center">
+        <div class="col-lg-6 col-md-6 offset-lg-6 offset-md-3 registro-container-col">
+            <div class="title-container">
+                <h1 class="title-curso-de">Curso de</h1>
+                <h1 class="title-color title-curso">Legislación Farmacéutica</h1>
+                <h2 class="title-2 title-curso-capacitate">Capacítate con la Escuela Latinoamericana de Farmacia</h2>
+            </div>
+            <div class="confirm-registro alert alert-success" role="alert">
+                ¡Gracias por registrarte! Pronto nos pondremos en contacto contigo.
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

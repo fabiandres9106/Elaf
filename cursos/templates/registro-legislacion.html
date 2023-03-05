@@ -1,0 +1,50 @@
+{% extends 'base/base.html' %}
+
+{% load static %}
+
+{% block styles %}
+    <link href="{% static 'css/registro.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+
+<div id="registro-container" class="container-fluid registro-container">
+    <div class="row align-items-center">
+        <div class="col-lg-6 col-md-6 offset-lg-6 offset-md-3 registro-container-col">
+            <div class="title-container">
+                <h1 class="title-curso-de">Curso de</h1>
+                <h1 class="title-color title-curso">Legislación Farmacéutica</h1>
+                <h2 class="title-2 title-curso-capacitate">Capacítate con la Escuela Latinoamericana de Farmacia</h2>
+            </div>
+            <div class="form-container">
+                <form method="post">
+                    {% csrf_token %}
+                    {% if form.errors %}
+                    <div class="form_errors alert alert-warning" role="alert">
+                        {% for key, value in form.errors.items %}
+                            {{ value }}
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                    <input type="text" name="nombres" id="id_nombres" maxlength="100" class="form-control form-input-text" placeholder="Nombres" {% if form.nombres.value != None %}value="{{ form.nombres.value }}"{% endif %} required>
+                    <input type="text" name="apellidos" id="id_apellidos" maxlength="100" class="form-control form-input-text" placeholder="Apellidos" {% if form.apellidos.value != None %}value="{{ form.apellidos.value }}"{% endif %} required>
+                    <input type="email" name="email" id="id_email" maxlength="254" class="form-control form-input-text" placeholder="Email" {% if form.nombres.value != None %}value="{{ form.email.value }}"{% endif %} required>
+                    <input type="number" name="whatsapp" id="id_whatsapp" class="form-control form-input-text" placeholder="Whatsapp" {% if form.nombres.value != None %}value="{{ form.whatsapp.value }}"{% endif %} required>
+                    <div class="form_check">
+                        <input type="checkbox" name="acepta_terminos_y_condiciones" id="id_acepta_terminos_y_condiciones" class="form-check-input" required {% if form.acepta_terminos_y_condiciones.value != None %}checked{% endif %}>
+                        <label for="id_acepta_terminos_y_condiciones" class="form-check-label">Estoy de acuerdo con los <a href="/terminos">Términos de servicio</a> y las <a href="/privacidad">Políticas de privacidad</a>.</label>
+                    </div>
+                    <div class="form_check">
+                        <input type="checkbox" name="suscripcion" id="id_suscripcion" class="form-check-input" checked>
+                        <label for="id_suscripcion" class="form-check-label"><b>Quiero seguir recibiendo información a través de email y Whatsapp sobre cursos y promociones de la Escuela Latinoamericana de Farmacia.</b></label>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Registrarme</button>
+                    <p class="info">* Todos los campos deben ser diligenciados.</p>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
